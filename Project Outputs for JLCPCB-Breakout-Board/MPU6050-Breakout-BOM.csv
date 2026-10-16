@@ -1,0 +1,8 @@
+Name,Description,Designator,Footprint,LibRef,Quantity,LCSC Part #
+"100n","Capacitor SMD 0402 Generic","C1, C2, C3, C6","CAP_0402","CAP_0402","4","C1525"
+"10n","Capacitor SMD 0402 Generic","C4","CAP_0402","CAP_0402","1","C15195"
+"2n2","Capacitor SMD 0402 Generic","C5","CAP_0402","CAP_0402","1","C1531"
+"FB_0402","Ferrite Bead SMD 0402","FB1","FB_0402","FB_0402","1","C76804"
+"SM06B-GHS-TB","Header Connector 6 Position 1.25MM Pitch SMD Horizontal JST GH","J1","SM06B-GHS-TB","SM06B-GHS-TB","1","C51940119"
+"2k2","Resistor SMD 0402 Generic","R1, R2","RES_0402","RES_0402","2","C25879"
+"MPU-6050","IMU (Inertial Measurement Unit), 6-Axis, Accelerometer, Gyroscope","U1","MPU-6050","MPU-6050","1","C24112"
