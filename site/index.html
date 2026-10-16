@@ -1,29 +1,136 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
   <title>MPU-6050 Breakout Board | Interactive PCB</title>
+
+  <!-- Altium interactive PCB viewer -->
   <script src="https://viewer.altium.com/client/static/js/embed.js"></script>
+
   <style>
-    body { margin: 0; background: #101820; color: #f7fafc; font-family: system-ui, sans-serif; }
-    main { max-width: 1300px; margin: auto; padding: 24px; }
-    h1 { margin-bottom: 8px; }
-    p { color: #cbd5e1; }
-    .altium-ecad-viewer { width: 100%; height: 78vh; min-height: 520px; box-sizing: border-box; border-radius: 12px; overflow: hidden; background: white; }
-    a { color: #8cc8ff; }
+    /* General page styling */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #101820;
+      color: #f7fafc;
+      font-family: system-ui, Arial, sans-serif;
+    }
+
+    /* Main content container */
+    main {
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    /* Page heading */
+    h1 {
+      font-size: 32px;
+      margin: 0 0 10px;
+    }
+
+    p {
+      color: #cbd5e1;
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+
+    /* Interactive Altium viewer */
+    .altium-ecad-viewer {
+      width: 100%;
+      height: 720px;
+      min-height: 720px;
+      border-radius: 12px;
+      overflow: hidden;
+      background: white;
+      position: relative;
+    }
+
+    /* Make generated iframe fill its container */
+    .altium-ecad-viewer iframe {
+      display: block;
+      width: 100% !important;
+      height: 100% !important;
+      border: none !important;
+    }
+
+    /* Links */
+    a {
+      color: #8cc8ff;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 24px;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    /* Smaller screens */
+    @media (max-width: 768px) {
+      main {
+        padding: 12px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      .altium-ecad-viewer {
+        height: 600px;
+        min-height: 600px;
+      }
+    }
   </style>
 </head>
+
 <body>
+
   <main>
-    <h1>MPU-6050 Breakout Board</h1>
-    <p>Interactive schematic, PCB layout and 3D model. Updated on each push to main.</p>
-    <div class="altium-ecad-viewer"
+
+    <header>
+      <h1>MPU-6050 Breakout Board</h1>
+
+      <p>
+        Interactive schematic, PCB layout and 3D model.
+        Designed in Altium Designer.
+        Automatically updated from GitHub.
+      </p>
+    </header>
+
+    <!-- Interactive PCB viewer -->
+    <div
+      class="altium-ecad-viewer"
       data-project-src="https://skillygonzales.github.io/JLCPCB-Breakout-Board/design-__SHA__.zip"
       data-enabled-views="sch,pcb,3d,bom"
       data-active-view="3d">
-      <a href="https://www.altium365.com/viewer/">PCB File Viewer by Altium</a>
+
+      <a href="https://www.altium.com/viewer">
+        PCB File Viewer by Altium
+      </a>
+
     </div>
+
+    <footer>
+      <p>
+        MPU-6050 Breakout Board |
+        Altium Designer |
+        GitHub Pages
+      </p>
+    </footer>
+
   </main>
+
 </body>
 </html>
